@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Practica 4 HTML </title>
+    <style>
+        body{
+            background-color: #203941;
+        }
+        header {
+            text-align: center;
+        }
+        .menu{
+            width: 20%;
+            float: left;
+            background-color: bisque;
+        }
+        .menu ul{
+            list-style: none;
+        }
+        .menu ul li {
+            padding: 5px;
+        }
+        .menu ul a:link,
+        .menu ul a:visited,
+        .menu ul a:active{
+            text-decoration: none;
+            color: #000;
+        }
+        .menu ul li:hover{
+            background-color: #C8E386;
+            font-weight: bold;
+        }
+        #content{
+            width: 80%;
+            float: left;
+        }
+        #content article{
+            margin: 10px;
+        }
+        
+        article h1{
+            color: #75AD24;
+            border-bottom: #000 solid 1px;
+            border-top: black;
+            border-left: black;
+            border-right: black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1> Soy Buongsito </h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#"> Papitas </a></li>
+                <li>
+                    <a href="#"> Bombones </a>
+                </li>
+                <li>
+                    <a href="#"> Tacos </a>
+                </li>
+                <li>
+                    <a href="#"> Boing de mango </a>
+                </li>
+            </ul>
+        </nav>
+        <section id="content"">
+            <article>
+                <h1> Think 1 </h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam non praesentium hic vel tempore
+                    odit quo repellendus doloribus dolores. Necessitatibus quia facilis sunt numquam optio quasi rem,
+                    voluptatum accusantium temporibus.
+                </p>
+            </article>
+            <article>
+                <h1> Think 2 </h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam non praesentium hic vel tempore
+                    odit quo repellendus doloribus dolores. Necessitatibus quia facilis sunt numquam optio quasi rem,
+                    voluptatum accusantium temporibus.
+                </p>
+            </article>
+        </section>
+
+        <footer> Aquí acaba todo :c </footer>
+    </main>
+</body>
+
+</html>
